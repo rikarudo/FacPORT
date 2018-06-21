@@ -1,1 +1,1 @@
-packageSearchIndex = [{"l":"fact"}]
+packageSearchIndex = [{"l":"examples"}]

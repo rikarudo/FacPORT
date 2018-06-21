@@ -4,7 +4,7 @@ package fact;
  * This class ...
  * 
  * @author   Ricardo Rodrigues
- * @version  0.9.0
+ * @version  0.9.9
  *
  */
 public class Fact {

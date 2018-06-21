@@ -4,7 +4,7 @@ package triple;
  * This class ...
  *
  * @author   Ricardo Rodrigues
- * @version  0.9.7
+ * @version  0.9.9
  */
 public class Triple {
   private String subject = null;

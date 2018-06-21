@@ -15,6 +15,13 @@ import chunk.Chunk;
 import dependency.DependencyChunk;
 import entity.Entity;
 
+/**
+ * This class ...
+ * 
+ * @author   Ricardo Rodrigues
+ * @version  0.9.9
+ *
+ */
 public class FactExtractor {
   private static final String DEFAULT_PROP =
       "resources/config/facport.properties";
@@ -65,7 +72,7 @@ public class FactExtractor {
     this.toPreposition = properties.getProperty("to_preposition");
   }
 
-  // A USAR ENTIDADES //////////////////////////////////////////////////////////
+  // using ENTITIES ////////////////////////////////////////////////////////////
 
   /**
    * This method ...
@@ -244,7 +251,7 @@ public class FactExtractor {
     return facts.toArray(new Triple[facts.size()]);
   }
 
-  // A USAR NOMES PRÓPRIOS /////////////////////////////////////////////////////
+  // using PROPER NOUNS ////////////////////////////////////////////////////////
 
   /**
    * This method ...
